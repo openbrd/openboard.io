@@ -9,6 +9,7 @@ __version__ = '0.0.1'
 import os
 
 from flask import Flask
+from model import db
 from logbook import Logger
 
 import config
@@ -21,6 +22,7 @@ log = Logger(__name__)
 def create_app(config_object):
     _app = Flask(__name__)
     _app.register_blueprint(helloworld.blueprint)
+    db.db.init_app(_app)
 
     _app.config.from_object(config_object)
     override_env_name = 'FLASK_SEED_CONFIG'

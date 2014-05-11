@@ -3,3 +3,4 @@
 *.ipynb
 venv/*
 *.pyc
+*_flymake.py
