@@ -4,3 +4,6 @@
 venv/*
 *.pyc
 *_flymake.py
+flaskApp/static/bower_components/*
+*~
+flaskApp/static/js/*
