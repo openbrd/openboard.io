@@ -1,2 +1,2 @@
 #! /usr/bin/env sh
-coffee -w -o public/js -c public/coffee/
+coffee -w -o static/js -c static/coffee/
