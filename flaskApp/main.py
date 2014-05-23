@@ -11,6 +11,7 @@ import os
 from flask import Flask, redirect
 from model import db
 from logbook import Logger
+from werkzeug.contrib.fixers import ProxyFix
 
 import config
 from blueprints import helloworld
@@ -37,6 +38,7 @@ def create_app(config_object):
 
 config_name = os.getenv('CONFIG', 'Default')
 app = create_app(config_object=config.defined[config_name])
+app.wsgi_app = ProxyFix(app.wsgi_app)
 
 if app.config['LOG_LEVEL'] == 'INFO':
     log_setup = utils.LoggingSetup(app.config['LOG_LEVEL'])
