@@ -2,6 +2,16 @@
     cursor: pointer;
 }
 
+body {
+    padding-bottom: 20px;
+}
+
+@media (min-width: 960px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
 .featured-title {
     font-family: Arial, serif;
     font-weight: bold;
@@ -13,14 +23,7 @@
     font-size: 1.2em;
 }
 
-.featured-nav {
-    font-weight: bold;
-    margin: auto auto 1.5em;
-    width: 1170px;
-}
-
-.nav a {
-    border-left: 1px solid #585858;
+.nav li {
     border-right: 1px solid #585858;
 }
 
