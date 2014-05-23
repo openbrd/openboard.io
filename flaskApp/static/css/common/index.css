@@ -4,6 +4,7 @@
 
 body {
     padding-bottom: 20px;
+    background-color: #EFEFEF;
 }
 
 @media (min-width: 960px) {
@@ -12,15 +13,41 @@ body {
     }
 }
 
-.featured-title {
+.intro {
+    background-color: #FFF;
+    margin: 0 0 20px 0;
+    border-radius: 5px;
     font-family: Arial, serif;
-    font-weight: bold;
-    font-size: 3em;
+    padding: 20px 0;
+    border: 1px solid #e5e5e5;
 }
 
-.featured-content {
-    font-family: Arial, serif;
-    font-size: 1.2em;
+.intro-sub {
+    background-color: #FDFDFD;
+}
+
+.intro h1 {
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 44px;
+    font-size: 4em;
+}
+
+.intro p {
+    font-size: 2em;
+    margin-left: 1em;
+    font-family: SimHei, "Microsoft YaHei",serif;
+}
+
+.intro h2 {
+    font-family: "Microsoft YaHei",serif;
+    text-align: center;
+}
+
+.intro > ul {
+    font-size: 1.4em;
+    line-height: 2em;
+    list-style: none;
 }
 
 .nav li {
