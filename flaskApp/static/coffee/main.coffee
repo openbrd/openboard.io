@@ -1,8 +1,8 @@
 require.config
   # urlArgs: "v=" +  (new Date()).getTime()
   paths:
-    'jQuery': '../bower_components/jquery/dist/jquery.min'
-    'angular': '../bower_components/angular/angular.min'
+    'jQuery': '//code.jquery.com/jquery-1.11.0.min'
+    'angular': 'https://code.angularjs.org/1.2.16/angular.min'
     'angular-route': '../bower_components/angular-route/angular-route.min'
     'angular-ui': '../bower_components/angular-ui/build/angular-ui.min'
     'angular-bootstrap': '../bower_components/angular-bootstrap/ui-bootstrap.min'
