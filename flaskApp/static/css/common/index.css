@@ -13,6 +13,12 @@ body {
     }
 }
 
+#header p {
+    padding-left: 6em;
+    color: #333333;
+    font-size: 20px;
+}
+
 .intro {
     background-color: #FFF;
     margin: 0 0 20px 0;
@@ -36,11 +42,11 @@ body {
 .intro p {
     font-size: 2em;
     margin-left: 1em;
-    font-family: SimHei, "Microsoft YaHei",serif;
+    font-family: SimHei, "Microsoft YaHei", serif;
 }
 
 .intro h2 {
-    font-family: "Microsoft YaHei",serif;
+    font-family: "Microsoft YaHei", serif;
     text-align: center;
 }
 

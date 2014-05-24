@@ -7,3 +7,5 @@ venv/*
 flaskApp/static/bower_components/*
 *~
 flaskApp/static/js/*
+*.log
+logs/*
