@@ -1,7 +1,6 @@
 define [
   'angular',
   'angular-route',
-  'angular-ui',
   'angular-bootstrap',
   'angular-bootstrap-tpls',
 
